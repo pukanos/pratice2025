@@ -1,0 +1,11 @@
+<launch>
+    <node name="arm_driver" pkg="arm_driver" type="arm_ros_driver.py" output="screen">
+        <param name="port" value="/dev/ttyACM0" />
+        <param name="baudrate" value="115200" />
+        
+        <rosparam param="joint_names">["joint1", "joint2", "joint3", "joint4"]</rosparam>
+        
+        <param name="update_rate" value="20" />
+        
+    </node>
+</launch>

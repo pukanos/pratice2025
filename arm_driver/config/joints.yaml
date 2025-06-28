@@ -1,0 +1,2 @@
+serial_port: /dev/ttyACM0
+robot_joint_names: ["joint1", "joint2", "joint3"]
