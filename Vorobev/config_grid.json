@@ -1,0 +1,10 @@
+{
+    "mode": "GRID",
+    "input": "data",
+    "output": "results/grid_crosses",
+    "grid_shape": [7, 7],
+    "step_mm": 35,
+    "find_axes": true,
+    "show_process": false,
+    "debug": false
+}

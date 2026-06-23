@@ -1,0 +1,7 @@
+{
+    "mode": "SINGLE",
+    "input": "cross_kim_dataset",
+    "output": "results/single_crosses",
+    "show_process": false,
+    "debug": false
+}
